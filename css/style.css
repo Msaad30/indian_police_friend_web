@@ -835,15 +835,17 @@ a:focus {
 
 @media (max-width: 380px) { /* Adjust the breakpoint as needed */
     .about .about-img {
-        width: 100%;
+        width: 40vh;
         height: 58vh; /* Adjust height as needed */
+        background-color: yellow;
     }
 }
 
 @media (max-width: 330px) { /* Adjust the breakpoint as needed */
     .about .about-img {
-        width: 100%;
+        width: 40vh;
         height: 50vh; /* Adjust height as needed */
+        background-color: yellow;
     }
 }
 
