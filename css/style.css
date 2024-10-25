@@ -819,7 +819,10 @@ a:focus {
 /*******************************/
 .about {
     position: relative;
-    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Adjust this to fit your layout */
 }
 
 .about .section-header {
@@ -833,17 +836,17 @@ a:focus {
     margin: auto;
 }
 
-@media (max-width: 380px) { /* Adjust the breakpoint as needed */
+@media (max-width: 380px) { 
     .about .about-img {
         width: 40vh;
-        height: 58vh; /* Adjust height as needed */
+        height: 58vh; 
     }
 }
 
-@media (max-width: 330px) { /* Adjust the breakpoint as needed */
+@media (max-width: 330px) { 
     .about .about-img {
         width: 40vh;
-        height: 50vh; /* Adjust height as needed */
+        height: 50vh; 
     }
 }
 
