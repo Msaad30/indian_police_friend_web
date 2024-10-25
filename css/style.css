@@ -837,7 +837,6 @@ a:focus {
     .about .about-img {
         width: 40vh;
         height: 58vh; /* Adjust height as needed */
-        background-color: yellow;
     }
 }
 
@@ -845,7 +844,6 @@ a:focus {
     .about .about-img {
         width: 40vh;
         height: 50vh; /* Adjust height as needed */
-        background-color: yellow;
     }
 }
 
