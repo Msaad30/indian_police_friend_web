@@ -848,6 +848,13 @@ a:focus {
     }
 }
 
+@media (max-width: 415px) { 
+    .about .about-img {
+        width: 40vh;
+        height: 60vh; 
+    }
+}
+
 .about .about-tab {
     width: 100%;
 }
