@@ -848,7 +848,7 @@ a:focus {
     }
 }
 
-@media (max-width: 415px) { 
+@media (min-width: 400px) and (max-width: 450px) { 
     .about .about-img {
         width: 40vh;
         height: 60vh; 
